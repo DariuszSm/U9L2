@@ -62,4 +62,12 @@ public class Animal {
         }
     }
 
+    public void checkVax() {
+        if (vaccinated) {
+            System.out.println("please vaccinate me!!!");
+        } else {
+            System.out.println("yaaaay i can fight diseases!!!!!");
+        }
+    }
+
 }
